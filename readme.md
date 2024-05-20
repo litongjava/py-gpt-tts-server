@@ -80,13 +80,12 @@ openai_alloy 是以openai的alloy发音人为蓝本微调后的模型
 2. **openai_alloy_e8_s112.pth** vits模型:这个部分用于存储训练好的网络权重和参数。在GPT-So-ViTS的上下文中，这是用于处理语音样式的部分，如基于ViT的样式嵌入。这个模型负责从参考语音样本中提取风格特征，并将这些特征应用到生成的语音中，以确保语音的自然性和表达性。这部分的作用是捕捉并再现语音的非语言属性，如音色、情感和其他声学细节。
 
 
-
-
-
-
-
-
-
+## run
+```
+conda create --name py-gpt-tts-server python=3.9 -y
+conda activate py-gpt-tts-server
+git clone https://github.com/litongjava/py-gpt-tts-server.git
+```
 
 
 
