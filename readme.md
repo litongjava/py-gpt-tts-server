@@ -85,6 +85,8 @@ openai_alloy 是以openai的alloy发音人为蓝本微调后的模型
 conda create --name py-gpt-tts-server python=3.9 -y
 conda activate py-gpt-tts-server
 git clone https://github.com/litongjava/py-gpt-tts-server.git
+pip install -r requirements.txt
+python main.py
 ```
 
 
